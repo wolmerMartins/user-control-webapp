@@ -1,0 +1,20 @@
+{
+  "name": "user-control",
+  "version": "1.0.0",
+  "description": "User control webapp allow user to create account, log user in and reset password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve"
+  },
+  "author": "Wolmer Martins <wolmermartins@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
